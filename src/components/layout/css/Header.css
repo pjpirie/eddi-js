@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen&display=swap');
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100vw;
+    height: 20vh;
+    max-height: 150px;
+    min-height: 100px;
+    background: none;
+    padding: 50px 150px;
+}
+.header__logo img{
+    height: 100%;
+}
+
+.header__navbar ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.header__navbar ul li{
+    margin: 0 1rem;
+}
+.header__navbar ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Oxygen', sans-serif;
+}
